@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar";
 
 const App = () => (
   <BrowserRouter>
-    <Box sx={{ backgroundColor: "#ff1f1f" }}>
+    <Box sx={{ backgroundColor: "#000" }}>
       <Navbar />   
       <Routes>
         <Route path="/" exact element={<Feed />} />
